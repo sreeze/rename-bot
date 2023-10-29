@@ -26,7 +26,7 @@ import time
 import asyncio 
 import logging 
 import datetime
-from class Config import ADMIN
+from Config(object) import ADMIN
 from helper.database import db
 from pyrogram.types import Message
 from pyrogram import Client, filters
